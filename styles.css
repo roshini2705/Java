@@ -1,119 +1,100 @@
 body {
-  margin: 10px;
-  padding-left: 50px;
-  align-items: center;
+  background-color: tan;
 }
-img {
-  height: 100px;
-  width: 100px;
+
+.box {
+  background-color: rgb(173, 158, 158);
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  position: relative;
+  top: 80px;
+  left: 40%;
 }
-/*welcome {
-  font-family: Arial, Helvetica, sans-serif;
-  color: blue;
+
+.display {
+  background-color: #222;
+  width: 220px;
+  position: relative;
+  left: 15px;
+  top: 10px;
+  height: 40px;
+}
+
+.display input {
+  position: relative;
+  left: 2px;
+  top: 2px;
+  height: 30px;
+  width: 209px;
+  color: black;
+  background-color: #bccd95;
+  font-size: 18.5px;
+  text-align: right;
+}
+
+.keys {
+  position: relative;
+  top: 15px;
+}
+
+.button {
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+  cursor: pointer;
+  border-top: 2px solid transparent;
+}
+
+.button.gray {
+  color: white;
+  background-color: #6f6f6f;
+  border-bottom: black 2px solid;
+  border-top: 2px #6f6f6f solid;
+}
+
+.button.pink {
+  color: black;
+  background-color: #f86a7869;
+  border-bottom: black 2px solid;
+}
+
+.button.black {
+  color: white;
+  background-color: #303030;
+  border-bottom: black 2px solid;
+  border-top: 2px #303030 solid;
+}
+
+.button.orange {
+  color: black;
+  background-color: #f3d162;
+  border-bottom: black 2px solid;
+  border-top: 2px #f3d162 solid;
+}
+
+.gray:active {
+  border-top: black 2px solid;
+  border-bottom: 2px #6f6f6f solid;
+}
+
+.pink:active {
+  border-top: black 2px solid;
+  border-bottom: 2px #f86a7869 solid;
+}
+
+.black:active {
+  border-top: black 2px solid;
+  border-bottom: 2px #303030 solid;
+}
+
+.orange:active {
+  border-top: black 2px solid;
+  border-bottom: 2px #f3d162 solid;
 }
 
 p {
-  color: red;
-  font-style: italic;
+  line-height: 10px;
 }
-#list ~ p {
-  color: pink;
-}
-
-article :first-child {
-  color: cadetblue;
-}
-article p:last-of-type {
-  font-style: italic;
-  color: blueviolet;
-}
-
-ul li:nth-child(odd) {
-  color: chocolate;
-}
-
-ul li:nth-child(even) {
-  color: limegreen;
-}
-
-ul li:nth-child(3n) {
-  color: burlywood;
-}
-
-a :visited,
-a:link {
-  color: blue;
-}
-
-a:hover,
-a:focus {
-  color: green;
-}
-.product {
-  color: green;
-}
-a[href*="google"] {
-  color: orange;
-  padding-left: 100px;
-}*/
-/*double colon sudo element selector and single colon pudo class selector
-p::first-letter {
-  font-weight: bold;
-  color: brown;
-}
-p::before {
-  content: "Helloooo ";
-  display: block; /*takes entire line
-}
-p::after {
-  content: " BYEEEEEE.";
-  font-weight: bold;
-  display: block;
-}
-::selection {
-  color: crimson;
-}
-
-h1 {
-  color: blue;
-}
-.priority {
-  color: tomato;
-}
-.priority#product {
-  color: yellowgreen;
-}
-#product {
-  color: green;
-}
-p {
-  font-weight: bold;
-  color: red;
-  border: 1px solid black; /*cant be inherited
-}*/
-/* strong inherits p
-strong {
-  color: initial;
-  border: inherit;  inheriting forcefully
-}*/
-table {
-  border: solid black;
-  padding: 30px;
-  margin: 30px;
-}
-/*table thead {
-  border: solid black;
-  color: green;
-}*/
-table td {
-  margin: 30px;
-}
-table tr {
-  margin: 30px;
-}
-/*table tbody {
-  color: blue;
-}
-table tfoot {
-  color: brown;
-}*/
